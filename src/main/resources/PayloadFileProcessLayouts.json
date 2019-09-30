@@ -1,0 +1,61 @@
+{	
+	"PayloadFileProcessLayouts": {
+		"A01_XXXXXX": {
+			"header": {
+				"tipoArquivo": "A01",
+				"dtArquivo": {
+					"start": 1,
+					"end": 3,
+					"pattern": "DDMMYYYY",
+					"type": "Date"
+				},
+				"numLote": {
+					"start": 3,
+					"end": 9,
+					"type": "Number"
+				}
+			},
+			"trailer": {
+				"tipoArquivo": "A01"
+			}
+		},
+		"A02_XXXXXX": {
+			"header": {
+				"tipoArquivo": "A01",
+				"dtArquivo": {
+					"start": 1,
+					"end": 3,
+					"pattern": "DDMMYYYY",
+					"type": "Date"
+				},
+				"numLote": {
+					"start": 3,
+					"end": 9,
+					"type": "Number"
+				}
+			},
+			"trailer": {
+				"tipoArquivo": "A01"
+			}
+		},
+		"A03_XXXXXX": {
+			"header": {
+				"tipoArquivo": "A01",
+				"dtArquivo": {
+					"start": 1,
+					"end": 3,
+					"pattern": "DDMMYYYY",
+					"type": "Date"
+				},
+				"numLote": {
+					"start": 3,
+					"end": 9,
+					"type": "Number"
+				}
+			},
+			"trailer": {
+				"tipoArquivo": "A01"
+			}
+		}
+	}	
+} 
